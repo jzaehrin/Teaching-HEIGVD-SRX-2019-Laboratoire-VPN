@@ -229,7 +229,8 @@ Vous pouvez consulter l’état de votre configuration IKE avec les commandes su
 ---
 
 **Réponse :**  
-
+- `R1` propose un seul algorithme, alors que `R2` en a deux à choix.
+- Pour `R2`, l'algorithme de chiffrement 3DES est prioritaire sur AES (qui est d'ailleurs le même que celui de `R1`
 ---
 
 
@@ -238,6 +239,8 @@ Vous pouvez consulter l’état de votre configuration IKE avec les commandes su
 ---
 
 **Réponse :**  
+- Les deux routeurs sont configurés sur leur interface de sortie (vers internet)
+- Ils utilisent tous deux la même clé pré-partagée
 
 ---
 
