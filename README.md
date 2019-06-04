@@ -129,7 +129,7 @@ Pour votre topologie il est utile de contrôler la connectivité entre :
 
 ---
 
-**Réponse : Tous les pings passent sans encombre.**  
+**Réponse :** Tous les pings passent sans encombre.  
 
 ---
 
