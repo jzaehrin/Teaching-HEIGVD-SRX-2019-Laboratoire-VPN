@@ -372,8 +372,7 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
-Tunnel, car
-Transport, car
+Tunnel
 ---
 
 
@@ -382,7 +381,7 @@ Transport, car
 ---
 
 **Réponse :** 
-L'entièreté du paquet, car nous sommes en mode tunnel. Il est chiffré avec l'algorithme cryptographique esp-192-aes.
+Le paquet de sécurité encapsulé, car nous sommes en mode tunnel. Il est chiffré avec l'algorithme cryptographique esp-192-aes.
 
 ---
 
