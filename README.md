@@ -387,7 +387,7 @@ Tunnel
 ---
 
 **Réponse :** 
-Le paquet de sécurité encapsulé, car nous sommes en mode tunnel. Il est chiffré avec l'algorithme cryptographique esp-192-aes.
+Le paquet de sécurité encapsulé (ESP), car nous sommes en mode tunnel. Il est chiffré avec l'algorithme cryptographique esp-192-aes.
 
 ---
 
@@ -397,7 +397,7 @@ Le paquet de sécurité encapsulé, car nous sommes en mode tunnel. Il est chiff
 ---
 
 **Réponse :**  
-Le payload. Il est authentifié avec l'algorithme esp-sha-hmac.
+Également l'intégralité du paquet encapsulé (ESP). Il est authentifié avec l'algorithme esp-sha-hmac.
 
 ---
 
@@ -407,6 +407,6 @@ Le payload. Il est authentifié avec l'algorithme esp-sha-hmac.
 ---
 
 **Réponse :** 
-???
+Une fois encore, la signature SHA-HMAC du paquet permet également de contrôler l'intégrité de ce dernier (ESP).
 
 ---
