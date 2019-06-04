@@ -339,6 +339,9 @@ Pensez à démarrer votre sniffer sur la sortie du routeur R2 vers internet avan
 
 **Réponse :**  
 
+Le premier paquet ICMP a est arrivé à son *timeout* car le tunnel n'était pas encore *up*.
+C'est d'ailleurs ce dernier qui a provoqué la (re)création du tunnel.
+
 ---
 
 **Question 7: Reportez dans votre rapport une petite explication concernant les différents « timers » utilisés par IKE et IPsec dans cet exercice (recherche Web). :**
