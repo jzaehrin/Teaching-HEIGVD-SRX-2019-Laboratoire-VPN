@@ -154,7 +154,7 @@ Pour déclencher et pratiquer les captures vous allez « pinger » votre routeur
 
 **Screenshots :** 
 
-![](images/reponse3a.jpg) 
+![image 1](images/reponse3a.jpg) 
 
 ![](images/reponse3b.jpg) 
 
