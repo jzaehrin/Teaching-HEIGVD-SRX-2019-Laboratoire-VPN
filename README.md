@@ -342,6 +342,12 @@ Pensez à démarrer votre sniffer sur la sortie du routeur R2 vers internet avan
 ---
 
 **Réponse :**  
+- Le *timer lifetime* d'IKE pour les deux protection suites sont de 1800 seconds.
+- Celui d'IPsec est de 300 seconds
+
+Le *lifetime* d'IKE est forcément plus grand que le second, car il correspond aux deux phases de la négociation,
+alors que le *lifetime* d'IPsec correspond à la seconde phase d'IKE.
+Une fois ces *timers* écoulés, les négociations doivent être refaite intégralement.
 
 ---
 
@@ -356,6 +362,7 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
+- ESP
 
 ---
 
@@ -365,7 +372,8 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
-
+Tunnel, car
+Transport, car
 ---
 
 
@@ -373,7 +381,8 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 
 ---
 
-**Réponse :**  
+**Réponse :** 
+L'entièreté du paquet, car nous sommes en mode tunnel. Il est chiffré avec l'algorithme cryptographique esp-192-aes.
 
 ---
 
@@ -383,6 +392,7 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
+Le payload. Il est authentifié avec l'algorithme esp-sha-hmac.
 
 ---
 
@@ -391,6 +401,7 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 
 ---
 
-**Réponse :**  
+**Réponse :** 
+???
 
 ---
