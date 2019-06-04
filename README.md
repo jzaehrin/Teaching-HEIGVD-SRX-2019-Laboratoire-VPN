@@ -154,11 +154,11 @@ Pour déclencher et pratiquer les captures vous allez « pinger » votre routeur
 
 **Screenshots :** 
 
-![](reponse3a.jpg) 
+![](images/reponse3a.jpg) 
 
-![](reponse3b.jpg) 
+![](images/reponse3b.jpg) 
 
-![](reponse3c.jpg) 
+![](images/reponse3c.jpg) 
 ---
 
 ## Configuration VPN LAN 2 LAN
