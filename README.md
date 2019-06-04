@@ -92,7 +92,7 @@ Un « protocol » différent de `up` indique la plupart du temps que l’interfa
 
 ---
 
-**Réponse :**  
+**Réponse :** Non, aucun problème n'a été rencontré.  
 
 ---
 
